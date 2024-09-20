@@ -1,0 +1,25 @@
+.container {
+  max-width: 900px;
+}
+
+button svg {
+  pointer-events: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+.pale {
+  opacity: 50%;
+}
+
+.pale:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.task-done {
+  text-decoration: line-through;
+  opacity: 0.65;
+}
